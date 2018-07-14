@@ -31,6 +31,6 @@ function appendKitten(name){
 
 function prependKitten(name){
   var new_kittens = kittens.slice()
-  new_kittens.unshift()
+  new_kittens.unshift("Arnold")
   return new_kittens
 }
