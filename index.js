@@ -34,3 +34,17 @@ function prependKitten(name){
   new_kittens.unshift("Arnold")
   return new_kittens
 }
+
+function removeLastKitten(name){
+  var new_kittens = kittens.slice()
+  newkittens.pop()
+  return new_kittens
+}
+
+function removeFirstKitten(name){
+  var new_kittens = kittens.slice()
+  new_kittens.shift()
+  return new_kittens
+}
+
+
