@@ -2,3 +2,7 @@
 
 var kittens = ["Milo", "Otis", "Garfield"]
 
+function destructivelyAppendKitten(name){
+  name = "Milo"
+  return destructivelyAppendKitten("Milo")
+}
